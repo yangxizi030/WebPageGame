@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="800px" height="600px"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xhtml="http://www.w3.org/1999/xhtml"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:a="http://www.adobe.com/svg10-extensions" a:timeline="independent"
+     onload="top.load(evt)">
+
+     <defs>
+       <!-- <clipPath id="gameareaclip" style="z-index:5">
+         <rect x="20" y="20" width="600" height="560"/>
+       </clipPath> -->
+       <pattern id="background_pattern" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse" style="z-index:1">
+         <path transform="rotate(95.37054443359375 20.606904983520508,19.997159957885746) " id="svg_1" d="m17.38748,6.63605l6.06781,7.52186l-2.50201,0.8877l7.64053,6.44459l-2.50089,1.07627l9.4453,10.7918l-16.02091,-8.27014l3.05577,-1.14849l-9.95422,-5.2971l3.56693,-1.63698l-10.51022,-5.55689l11.7119,-4.81263z" stroke="#FFFA8D" fill="#FFFF91"/>
+           <text stroke="#CE7975" transform="rotate(-40.24698257446289 20.072042465209957,20.196800231933594) matrix(0.22423045511275758,0,0,0.13738509306583976,20.42240181728309,3.7621088016317645) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_3" y="127.92315" x="-24.8936" stroke-width="0" fill="#CE7975">YXZ</text>
+           <text stroke="#FFFA8D" transform="rotate(-39.3863410949707 21.45672416687012,21.75583076477051) matrix(0.08528183125315172,0,0,0.05538483810518576,18.04078741016596,2.406618295930099) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_6" y="357.70922" x="7.39387" stroke-width="0" fill="#ce7975">&amp;ZQX</text>
+           <line transform="rotate(12.294282913208008 27.47993850708008,15.060956001281733) " stroke-linecap="null" stroke-linejoin="null" id="svg_7" y2="14.03318" x2="28.53627" y1="16.08873" x1="26.42361" stroke="#ff8c00" fill="none"/>
+           <line stroke-linecap="null" stroke-linejoin="null" id="svg_9" y2="18.37268" x2="30.02083" y1="14.71836" x1="27.28009" stroke="#ff8c00" fill="none"/>
+           <line stroke="#ff8c00" transform="rotate(7.028036594390869 29.33564758300778,18.28703689575196) " stroke-linecap="null" stroke-linejoin="null" id="svg_10" y2="16.94655" x2="30.67907" y1="19.62752" x1="27.99222" fill="none"/>
+       </pattern>
+       <radialGradient id="player_color" style="z-index:1">
+         <stop offset="0.0" style="stop-color:yellow;stop-opacity:1"/>
+         <stop offset="0.8" style="stop-color:yellow;stop-opacity:1"/>
+         <stop offset="1.0" style="stop-color:orange;stop-opacity:1"/>
+       </radialGradient>
+
+    <!--define you monster here-->
+    <g id="monsterleft" transform="translate(-40,0) scale(1,1)">
+      <path id="svg_1" d="m2.77891,12.80547l17.28123,-10.9375l17.28127,10.9375l-34.5625,0z" stroke-width="1.5" stroke="#000" fill="#fff"/>
+      <path stroke="#000" id="svg_2" d="m32.00768,12.87701l0.007,7.62388l0,0c0.00386,4.21052 -5.36547,7.63066 -11.99324,7.63903c-6.62768,0.00837 -12.00335,-3.39821 -12.00722,-7.60873l-0.007,-7.62388l24.00045,-0.0303z" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="#fff"/>
+      <line stroke-linecap="null" stroke-linejoin="null" id="svg_3" y2="23.40625" x2="27.28125" y1="16.96875" x1="11.09375" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="red"/>
+      <line stroke-linecap="null" stroke-linejoin="null" id="svg_4" y2="16.34375" x2="26.21875" y1="24.96875" x1="12.40625" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+      <line stroke-linecap="null" stroke-linejoin="null" id="svg_7" y2="32.71875" x2="16.40625" y1="28.21875" x1="18.53125" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+      <line transform="rotate(22.9409 24.4688 30.875)" stroke-linecap="null" stroke-linejoin="null" id="svg_8" y2="32.84375" x2="26.65625" y1="28.90625" x1="22.28125" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+      <line stroke-linecap="null" stroke-linejoin="null" id="svg_9" y2="32.59375" x2="10.03125" y1="26.34375" x1="12.71875" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+      <line stroke-linecap="null" stroke-linejoin="null" id="svg_10" y2="32.59375" x2="33.65625" y1="26.59375" x1="28.53125" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+      <animateTransform type="scale"  attributeName="transform" attributeType="XML"  dur="5s" values="1;1.2;1" repeatCount="indefinite" />
+  </g>
+  <g id="monster" transform="translate(40,0) scale(-1,1)">
+    <path id="svg_1" d="m2.77891,12.80547l17.28123,-10.9375l17.28127,10.9375l-34.5625,0z" stroke-width="1.5" stroke="#000" fill="#fff" transform="translate(40,0) scale(-1,1)"/>
+    <path stroke="#000" id="svg_2" d="m32.00768,12.87701l0.007,7.62388l0,0c0.00386,4.21052 -5.36547,7.63066 -11.99324,7.63903c-6.62768,0.00837 -12.00335,-3.39821 -12.00722,-7.60873l-0.007,-7.62388l24.00045,-0.0303z" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="#fff" transform="translate(40,0) scale(-1,1)"/>
+    <line stroke-linecap="null" stroke-linejoin="null" id="svg_3" y2="23.40625" x2="27.28125" y1="16.96875" x1="11.09375" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="red" transform="translate(40,0) scale(-1,1)"/>
+    <line stroke-linecap="null" stroke-linejoin="null" id="svg_4" y2="16.34375" x2="26.21875" y1="24.96875" x1="12.40625" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none" transform="translate(40,0) scale(-1,1)"/>
+    <line stroke-linecap="null" stroke-linejoin="null" id="svg_7" y2="32.71875" x2="16.40625" y1="28.21875" x1="18.53125" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none" transform="translate(40,0) scale(-1,1)"/>
+    <line transform="rotate(22.9409 24.4688 30.875) translate(40,0) scale(-1,1)" stroke-linecap="null" stroke-linejoin="null" id="svg_8" y2="32.84375" x2="26.65625" y1="28.90625" x1="22.28125" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none" />
+    <line stroke-linecap="null" stroke-linejoin="null" id="svg_9" y2="32.59375" x2="10.03125" y1="26.34375" x1="12.71875" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none" transform="translate(40,0) scale(-1,1)"/>
+    <line stroke-linecap="null" stroke-linejoin="null" id="svg_10" y2="32.59375" x2="33.65625" y1="26.59375" x1="28.53125" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none" transform="translate(40,0) scale(-1,1)"/>
+    <animateTransform type="scale"  attributeName="transform" attributeType="XML"  dur="5s" values="1;1.2;1" repeatCount="indefinite" />
+</g>
+    <!--define you bullet here-->
+  <g id="bullet">
+<path id="svg_4" d="m16.302469,17.860147c1.135595,0 2.27119,0 3.406785,0c0,1.276595 0,2.553192 0,3.829787c-1.135595,0 -2.27119,0 -3.406785,0c0,-1.276595 0,-2.553192 0,-3.829787zm-4.920913,0c1.261764,0 2.523553,0 3.785318,0c0,1.276595 0,2.553192 0,3.829787c-1.261764,0 -2.523553,0 -3.785318,0c0,-1.276595 0,-2.553192 0,-3.829787zm-4.54238,0c1.261764,0 2.523552,0 3.785317,0c0,1.276595 0,2.553192 0,3.829787c-1.261764,0 -2.523553,0 -3.785317,0c0,-1.276595 0,-2.553192 0,-3.829787zm-4.54238,0c1.261764,0 2.523552,0 3.785318,0c0,1.276595 0,2.553192 0,3.829787c-1.261765,0 -2.523552,0 -3.785318,0c0,-1.276595 0,-2.553192 0,-3.829787zm14.005674,7.89771c1.19869,-0.086468 2.39736,0.061094 3.596051,-0.025374c0.076912,-1.347517 0.041287,-2.695037 0.118199,-4.042554c1.12178,0 2.356096,0 3.477852,0c0,-1.276595 0,-2.553193 0,-3.829787c-1.135595,0 -2.27119,0 -3.406785,0c0,-1.418442 0,-2.836881 0,-4.255319c-1.261764,0 -2.523552,0 -3.785317,0c0,-1.276595 0,-2.553192 0,-3.829787c1.261764,0 2.523552,0 3.785317,0c0,1.276595 0,2.553192 0,3.829787c1.121757,0 2.356073,-0.063254 3.477852,-0.063254c0.076912,1.347513 0.041288,2.75829 0.1182,4.105807c1.19869,0.086465 2.414266,-0.007335 3.612958,0.07913c0,1.261054 -0.016907,2.702368 -0.016907,3.963424c-1.261764,0 -2.523552,0 -3.785317,0c0,1.418441 0,2.836878 0,4.255319c-1.135595,0 -2.27119,0 -3.406785,0c0,1.276595 0,2.553192 0,3.829787c-1.261764,0 -2.523552,0 -3.785317,0c0,-1.261054 0,-2.756127 0,-4.017181l-0.000001,0.000003z" stroke-width="1.5" stroke="#56aaff" fill="#fff"/>
+  </g>
+  <g id="bulletleft">
+<path id="svg_4" d="m16.302469,17.860147c1.135595,0 2.27119,0 3.406785,0c0,1.276595 0,2.553192 0,3.829787c-1.135595,0 -2.27119,0 -3.406785,0c0,-1.276595 0,-2.553192 0,-3.829787zm-4.920913,0c1.261764,0 2.523553,0 3.785318,0c0,1.276595 0,2.553192 0,3.829787c-1.261764,0 -2.523553,0 -3.785318,0c0,-1.276595 0,-2.553192 0,-3.829787zm-4.54238,0c1.261764,0 2.523552,0 3.785317,0c0,1.276595 0,2.553192 0,3.829787c-1.261764,0 -2.523553,0 -3.785317,0c0,-1.276595 0,-2.553192 0,-3.829787zm-4.54238,0c1.261764,0 2.523552,0 3.785318,0c0,1.276595 0,2.553192 0,3.829787c-1.261765,0 -2.523552,0 -3.785318,0c0,-1.276595 0,-2.553192 0,-3.829787zm14.005674,7.89771c1.19869,-0.086468 2.39736,0.061094 3.596051,-0.025374c0.076912,-1.347517 0.041287,-2.695037 0.118199,-4.042554c1.12178,0 2.356096,0 3.477852,0c0,-1.276595 0,-2.553193 0,-3.829787c-1.135595,0 -2.27119,0 -3.406785,0c0,-1.418442 0,-2.836881 0,-4.255319c-1.261764,0 -2.523552,0 -3.785317,0c0,-1.276595 0,-2.553192 0,-3.829787c1.261764,0 2.523552,0 3.785317,0c0,1.276595 0,2.553192 0,3.829787c1.121757,0 2.356073,-0.063254 3.477852,-0.063254c0.076912,1.347513 0.041288,2.75829 0.1182,4.105807c1.19869,0.086465 2.414266,-0.007335 3.612958,0.07913c0,1.261054 -0.016907,2.702368 -0.016907,3.963424c-1.261764,0 -2.523552,0 -3.785317,0c0,1.418441 0,2.836878 0,4.255319c-1.135595,0 -2.27119,0 -3.406785,0c0,1.276595 0,2.553192 0,3.829787c-1.261764,0 -2.523552,0 -3.785317,0c0,-1.261054 0,-2.756127 0,-4.017181l-0.000001,0.000003z" stroke-width="1.5" stroke="#56aaff" fill="#fff"/>
+  </g>
+  <g id="bulletM">
+  <path id="svg_4" d="m16.302469,17.860147c1.135595,0 2.27119,0 3.406785,0c0,1.276595 0,2.553192 0,3.829787c-1.135595,0 -2.27119,0 -3.406785,0c0,-1.276595 0,-2.553192 0,-3.829787zm-4.920913,0c1.261764,0 2.523553,0 3.785318,0c0,1.276595 0,2.553192 0,3.829787c-1.261764,0 -2.523553,0 -3.785318,0c0,-1.276595 0,-2.553192 0,-3.829787zm-4.54238,0c1.261764,0 2.523552,0 3.785317,0c0,1.276595 0,2.553192 0,3.829787c-1.261764,0 -2.523553,0 -3.785317,0c0,-1.276595 0,-2.553192 0,-3.829787zm-4.54238,0c1.261764,0 2.523552,0 3.785318,0c0,1.276595 0,2.553192 0,3.829787c-1.261765,0 -2.523552,0 -3.785318,0c0,-1.276595 0,-2.553192 0,-3.829787zm14.005674,7.89771c1.19869,-0.086468 2.39736,0.061094 3.596051,-0.025374c0.076912,-1.347517 0.041287,-2.695037 0.118199,-4.042554c1.12178,0 2.356096,0 3.477852,0c0,-1.276595 0,-2.553193 0,-3.829787c-1.135595,0 -2.27119,0 -3.406785,0c0,-1.418442 0,-2.836881 0,-4.255319c-1.261764,0 -2.523552,0 -3.785317,0c0,-1.276595 0,-2.553192 0,-3.829787c1.261764,0 2.523552,0 3.785317,0c0,1.276595 0,2.553192 0,3.829787c1.121757,0 2.356073,-0.063254 3.477852,-0.063254c0.076912,1.347513 0.041288,2.75829 0.1182,4.105807c1.19869,0.086465 2.414266,-0.007335 3.612958,0.07913c0,1.261054 -0.016907,2.702368 -0.016907,3.963424c-1.261764,0 -2.523552,0 -3.785317,0c0,1.418441 0,2.836878 0,4.255319c-1.135595,0 -2.27119,0 -3.406785,0c0,1.276595 0,2.553192 0,3.829787c-1.261764,0 -2.523552,0 -3.785317,0c0,-1.261054 0,-2.756127 0,-4.017181l-0.000001,0.000003z" stroke-width="1.5" stroke="#ff5656" fill="#fff"/>
+  </g>
+  <g id="goodThing">
+    <rect id="svg_1" height="19.666379" width="18.999722" y="12.866774" x="9.833474" stroke-width="4" stroke="#ffd4aa" fill="#ffd4aa"/>
+    <ellipse stroke="#ffd4aa" ry="6.166576" rx="11.666496" id="svg_6" cy="13.700095" cx="19.166671" stroke-width="4" fill="#ffd4aa"/>
+    <line stroke-linecap="null" stroke-linejoin="null" id="svg_8" y2="20.866657" x2="14.166744" y1="15.200073" x1="14.166744" stroke-width="2" stroke="#000000" fill="none"/>
+    <line stroke="#000000" stroke-linecap="null" stroke-linejoin="null" id="svg_11" y2="20.866657" x2="14.166744" y1="15.200073" x1="14.166744" stroke-width="2" fill="none"/>
+    <line stroke-linecap="null" stroke-linejoin="null" id="svg_12" y2="20.866657" x2="23.83327" y1="15.200073" x1="23.83327" fill-opacity="null" stroke-width="2" stroke="#000000" fill="none"/>
+    <ellipse ry="0.499993" rx="2.333299" id="svg_13" cy="26.366576" cx="10.83346" fill-opacity="null" stroke-width="2" stroke="#FFDCEC" fill="none"/>
+    <ellipse ry="0.833321" rx="2.666628" id="svg_15" cy="26.033248" cx="27.166554" fill-opacity="null" stroke-width="2" stroke="#FFDCEC" fill="none"/>
+  </g>
+  </defs>
+
+
+  <xhtml:audio id="win" src="getGood.mp3" begin="indefinite"/>
+  <xhtml:audio id="shoot" src="shoot.mp3" begin="indefinite"/>
+  <xhtml:audio id="monstersound" src="monster.mp3" begin="indefinite"/>
+  <xhtml:audio id="fail" src="fail.mp3" begin="indefinite"/>
+  <xhtml:audio id="back" src="back.mp3" begin="indefinite"/>
+
+  <rect width="100%" height="100%" style="fill:url(#background_pattern);stroke:orange;stroke-width:4" />
+
+  <rect x="0" y="0" width="800" height="600" style="fill:url(#background_pattern)" />
+
+
+    <g transform="translate(0,0)">
+      <g id="gamearea" transform="translate(0,0)" width="800" height="600">
+        <rect x="0" y="0" width="800" height="600" style="fill:url(#background_pattern)" />
+        <g id="exit">
+         <text style="fill:lightblue" x="0" y="40">EXIT!</text>
+        </g>
+
+        <g id="disappearingplatforms">
+          <rect id="plat1" style="fill:lightblue; opacity:1" width="100" height="20" x="200" y="300"/>
+          <rect id="plat2" style="fill:lightblue; opacity:1" width="40" height="20" x="0" y="320"/>
+          <rect id="plat3" style="fill:lightblue; opacity:1" width="80" height="20" x="180" y="400"/>
+        </g>
+        <g id="platforms">
+            <!-- 60 -->
+            <rect style="fill:orange" width="80" height="20" x="320" y="400"/>
+            <rect style="fill:orange" width="60" height="20" x="0" y="60"/>
+
+            <!-- 80 -->
+            <rect style="fill:orange" width="60" height="20" x="740" y="80"/>
+
+            <!-- 100 -->
+            <rect style="fill:orange" width="200" height="20" x="40" y="100"/>
+            <rect style="fill:orange" width="90" height="20" x="340" y="100"/>
+            <!-- 120 -->
+            <rect style="fill:orange" width="20" height="20" x="60" y="120"/>
+            <rect style="fill:orange" width="40" height="20" x="220" y="120"/>
+
+            <!-- 140 -->
+            <rect style="fill:orange" width="40" height="20" x="220" y="140"/>
+            <rect style="fill:orange" width="240" height="20" x="560" y="140"/>
+
+            <!-- 160 -->
+            <!-- <rect style="fill:orange" width="120" height="20" x="180" y="160"/> -->
+            <rect style="fill:orange" width="90" height="20" x="540" y="160"/>
+            <rect style="fill:orange" width="80" height="20" x="520" y="180"/>
+
+            <rect style="fill:orange" width="80" height="20" x="360" y="200"/>
+
+            <!-- 220 -->
+            <rect style="fill:orange" width="100" height="20" x="0" y="220"/>
+            <rect style="fill:orange" width="140" height="20" x="320" y="220"/>
+
+            <rect style="fill:orange" width="100" height="20" x="140" y="280"/>
+            <rect style="fill:orange" width="40" height="20" x="660" y="280"/>
+
+            <!-- 300 -->
+            <!-- <rect style="fill:orange" width="100" height="20" x="200" y="300"/> -->
+            <!-- <rect style="fill:orange" width="40" height="20" x="280" y="300"/> -->
+            <rect style="fill:orange" width="140" height="20" x="620" y="300"/>
+
+            <!-- 320 -->
+            <!-- <rect style="fill:orange" width="40" height="20" x="0" y="320"/> -->
+            <rect style="fill:orange" width="60" height="20" x="280" y="320"/>
+            <!-- <rect style="fill:orange" width="20" height="20" x="380" y="320"/> -->
+
+            <!-- 340 -->
+            <rect style="fill:orange" width="60" height="20" x="0" y="340"/>
+            <!-- <rect style="fill:orange" width="20" height="20" x="320" y="340"/> -->
+            <rect style="fill:orange" width="60" height="20" x="480" y="340"/>
+
+            <!-- 360 -->
+            <rect style="fill:orange" width="120" height="20" x="0" y="360"/>
+            <!-- <rect style="fill:orange" width="20" height="20" x="320" y="360"/> -->
+            <rect style="fill:orange" width="120" height="20" x="380" y="360"/>
+
+            <!-- 380 -->
+            <rect style="fill:orange" width="40" height="20" x="0" y="380"/>
+            <!-- <rect style="fill:orange" width="20" height="20" x="220" y="380"/>
+            <rect style="fill:orange" width="20" height="20" x="580" y="380"/> -->
+
+            <!-- 400 -->
+
+            <rect style="fill:orange" width="40" height="20" x="600" y="400"/>
+
+            <!-- 420 -->
+            <!-- <rect style="fill:orange" width="160" height="20" x="180" y="420"/> -->
+            <rect style="fill:orange" width="120" height="20" x="680" y="460"/>
+
+            <!-- 440 -->
+            <!-- <rect style="fill:orange" width="100" height="20" x="140" y="440"/> -->
+            <!-- <rect style="fill:orange" width="20" height="20" x="440" y="440"/>
+            <rect style="fill:orange" width="60" height="20" x="500" y="440"/> -->
+
+            <!-- 460 -->
+            <rect style="fill:orange" width="90" height="20" x="620" y="560"/>
+            <rect style="fill:orange" width="140" height="20" x="400" y="500"/>
+
+            <!-- 480 -->
+            <!-- <rect style="fill:orange" width="40" height="20" x="0" y="480"/> -->
+            <rect style="fill:orange" width="20" height="20" x="780" y="420"/>
+
+            <!-- 500 -->
+            <!-- <rect style="fill:orange" width="60" height="20" x="0" y="500"/>
+            <rect style="fill:orange" width="20" height="20" x="260" y="500"/> -->
+
+            <!-- 520 -->
+            <rect style="fill:orange" width="160" height="20" x="0" y="560"/>
+            <!-- <rect style="fill:orange" width="20" height="20" x="140" y="520"/> -->
+            <rect style="fill:orange" width="280" height="20" x="140" y="460"/>
+            <!-- <rect style="fill:orange" width="20" height="20" x="500" y="520"/> -->
+
+            <!-- the floor -->
+            <rect style="fill:orange" width="800" height="60" x="0" y="540"/>
+        </g>
+        <rect id="timebar" style="fill:pink" width="200" height="10" x="100" y="580"/>
+        <text id="timeRemaining" x="100" y="570"> Time Remains: 100s</text>
+        <text id="scoreGotten" x="300" y="570"> Score: 0</text>
+        <text id="bulletLeft" x="600" y="570"> Bullet Left: 8</text>
+        <g id="trans">
+          <ellipse transform="translate(5,150)" stroke="#bfbf00" ry="18.5" rx="6.75" id="svg_2" cy="20.3" cx="9.7" stroke-width="1.5" fill="#ffffaa"/>
+          <ellipse transform="translate(770,50)" stroke="#bfbf00" ry="18.5" rx="6.75" id="svg_2" cy="20.3" cx="9.7" stroke-width="1.5" fill="#ffffaa"/>
+        </g>
+	<!--add monsters to the gamearea-->
+        <g id="monsters" />
+	<!--add bullets to the gamearea-->
+        <g id="bullets" />
+        <g id="bulletsToLeft" />
+        <g id="monsterbullets" />
+        <g id="monsterbulletsToLeft" />
+        <g id="shootmonster" />
+        <g id="goodThings" />
+        <g id="player">
+  <text font-size="10" id="playername" x="2" y="0">nameHere</text>
+  <g id="playerExceptname" style="opacity:1">
+    <ellipse ry="6.166643" rx="5.999977" id="svg_2" cy="10.70004" cx="20.16667" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_3" y2="16.866683" x2="19.833338" y1="26.19998" x1="19.500006" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="24.866652" x2="19.166674" y1="35.199945" x1="10.833373" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_6" y2="24.199988" x2="18.833342" y1="34.199949" x1="27.166643" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_7" y2="19.200007" x2="19.833338" y1="24.866652" x1="11.166705" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_8" y2="20.200003" x2="19.166674" y1="19.533339" x1="28.499971" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line stroke="#000" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_9" y2="16.200019" x2="27.833307" y1="15.866687" x1="35.166612" stroke-width="1.5" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_10" y2="16.533351" x2="27.833307" y1="20.200003" x1="27.833307"  stroke-width="1.5" stroke="#ff0000" fill="none"/>
+  <path id="svg_15" d="m17.166681,18.200011" opacity="0.5" stroke-width="1.5" stroke="#ff0000" fill="none"/>
+  <path id="svg_16" d="m17.166681,18.200011" opacity="0.5" stroke-width="1.5" stroke="#ff0000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_17" y2="18.866675" x2="15.500021" y1="17.866679" x1="20.833334" stroke-width="1.5" stroke="#ff0000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_18" y2="17.533347" x2="17.166681" y1="31.533292" x1="11.500037" stroke-width="1.5" stroke="#ff0000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_19" y2="23.866655" x2="10.833373" y1="18.866675" x1="16.833349" stroke-width="1.5" stroke="#000000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_21" y2="35.533277" x2="13.833361" y1="36.199941" x1="10.166709" stroke-width="1.5" stroke="#000000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_22" y2="34.199949" x2="30.166631" y1="36.866605" x1="26.166647" stroke-width="1.5" stroke="#000000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_23" y2="2.866737" x2="14.500025" y1="5.200061" x1="15.500021" stroke-width="1.5" stroke="#000000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_24" y2="2.200073" x2="24.833318" y1="4.866729" x1="23.49999" stroke-width="1.5" stroke="#000000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_25" y2="0.866745" x2="19.833338" y1="4.200065" x1="19.833338" stroke-width="1.5" stroke="#000000" fill="none"/>
+</g></g>
+
+        <g id="startpage">
+          <rect id="svg_6" height="483" width="677" y="9.2" x="12.3" stroke-width="3" stroke="#ffaaaa" fill="#fcedf4"/>
+          <text font-weight="normal" stroke="#ffaaaa" transform="matrix(2.578786245358348,0,0,3.3164456351492495,-876.6081450321791,-257.16844065127566) " stroke-dasharray="2,2" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_7" y="111.510849" x="359.152783" stroke-width="0.5" fill="#ffd4aa">A  Game named Game</text>
+          <text stroke="#ffaaaa" transform="matrix(0.8964976848609467,0,0,0.8590908944606781,46.50383899194593,22.144107300322503) " xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_8" y="147.09947" x="163.688918" stroke-opacity="null" stroke-width="0.5" fill="#f9973b">Made by Xizi Yang     id:20571433</text>
+          <text stroke="#ffaaaa" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_9" y="197.2" x="66.3" stroke-opacity="null" stroke-width="0.5" fill="#f9973b">How to win?</text>
+          <text stroke="#ffaad4" transform="matrix(0.6864323512359505,0,0,0.7837750185200463,9.829711089517993,46.738245447576716) " xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_10" y="233.584615" x="89.236271" fill-opacity="null" stroke-width="0.5" fill="#f9973b">You need to collect all bread and reach the exit to win in 100 seconds to win!</text>
+          <text stroke="#ffaaaa" transform="matrix(0.7805561777157894,0,0,0.7873581347250056,105.51826409901841,52.636516208762906) " xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_12" y="249.222696" x="-70.60114" stroke-opacity="null" stroke-width="0.5" fill="#f9973b">At the same time, try not to touch the monster or be hitted by its bullets.</text>
+          <text stroke="#ffaaaa" transform="matrix(0.7475933334293913,0,0,0.723084967765956,84.85663413089497,74.87121999881043) " xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_13" y="266.154073" x="-27.328013" stroke-opacity="null" stroke-width="0.5" fill="#ffaa56">You can also get more score by shooting the monster or choose zoom mode.</text>
+          <text stroke="#ffaaaa" transform="matrix(1,0,0,1,0,0) " xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_14" y="324.2" x="74.3" stroke-opacity="null" stroke-width="0.5" fill="#f9973b">w- Jump   A-Move left   D-Move right    Space-Shoot</text>
+          <text xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_15" y="358.2" x="102.3" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#ffaaaa" fill="#f9973b">Also Cheat Mode supported: C-On      V-Off</text>
+          <rect onclick="top.hideStart()" stroke="#ffaaaa" id="svg_16" height="48" width="140" y="395.2" x="133.3" stroke-opacity="null" stroke-width="3" fill="#f9f4f7"/>
+          <rect onclick="top.setZoom(),top.hideStart()"  id="svg_18" height="49" width="140" y="391.2" x="428.3" fill-opacity="null" stroke-opacity="null" stroke-width="3" stroke="#ffaaaa" fill="#f9f4f7"/>
+          <path id="svg_19" d="m156.3,405.2" opacity="0.5" stroke-opacity="null" stroke-width="3" stroke="#ffaaaa" fill="#f9f4f7"/>
+          <text onclick="top.hideStart()" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_20" y="427.2" x="161.3" stroke-opacity="null" stroke-width="0.5" stroke="#ffaaaa" fill="#f9973b">Normal</text>
+          <text onclick="top.setZoom(),top.hideStart()" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_21" y="423.2" x="466.3" stroke-opacity="null" stroke-width="0.5" stroke="#ffaaaa" fill="#f9973b">Zoom</text>
+          <path  id="svg_22" d="m83.549893,414.159973c2.180342,0 4.360685,0 6.541027,0c0,2.297872 0,4.595746 0,6.893618c-2.180342,0 -4.360685,0 -6.541027,0c0,-2.297872 0,-4.595746 0,-6.893618zm-9.448153,0c2.422588,0 4.845222,0 7.267811,0c0,2.297872 0,4.595746 0,6.893618c-2.422588,0 -4.845222,0 -7.267811,0c0,-2.297872 0,-4.595746 0,-6.893618zm-8.72137,0c2.422588,0 4.84522,0 7.267808,0c0,2.297872 0,4.595746 0,6.893618c-2.422588,0 -4.845222,0 -7.267808,0c0,-2.297872 0,-4.595746     0,-6.893618zm-8.72137,0c2.422588,0 4.84522,0 7.26781,0c0,2.297872 0,4.595746 0,6.893618c-2.422589,0 -4.84522,0 -7.26781,0c0,-2.297872 0,-4.595746 0,-6.893618zm26.890893,14.215878c2.301486,-0.155642 4.602931,0.109969 6.904418,-0.045674c0.14767,-2.425531 0.079271,-4.851067 0.226942,-7.276597c2.153817,0 4.523703,0 6.677475,0c0,-2.297872 0,-4.595747 0,-6.893618c-2.180342,0 -4.360685,0 -6.541027,0c0,-2.553196 0,-5.106386 0,-7.659575c-2.422588,0 -4.84522,0 -7.267808,0c0,-2.297872 0,-4.595746     0,-6.893618c2.422588,0 4.84522,0 7.267808,0c0,2.297872 0,4.595746 0,6.893618c2.153773,0 4.52366,-0.113857 6.677475,-0.113857c0.14767,2.425524 0.079273,4.964922 0.226945,7.390453c2.301484,0.155637 4.63539,-0.013204 6.936879,0.142434c0,2.269897 -0.032462,4.864263 -0.032462,7.134164c-2.422588,0 -4.84522,0 -7.267808,0c0,2.553195 0,5.106381 0,7.659575c-2.180342,0 -4.360685,0 -6.541027,0c0,2.297872 0,4.595746 0,6.893618c-2.422588,0 -4.84522,0 -7.267808,0c0,-2.269897 0,-4.961028     0,-7.230927l-0.000002,0.000005z" fill-opacity="null" stroke-opacity="null" stroke-width="3" stroke="#ffaaaa" fill="#f9f4f7"/>
+          <path id="svg_24"  d="m384.012855,414.986506c2.225766,0 4.451534,0 6.6773,0c0,2.61702 0,5.234042 0,7.851062c-2.225766,0 -4.451534,0 -6.6773,0c0,-2.61702 0,-5.234042 0,-7.851062zm-9.644992,0c2.473059,0 4.946165,0 7.419226,0c0,2.61702 0,5.234042 0,7.851062c-2.473059,0 -4.946165,0 -7.419226,0c0,-2.61702 0,-5.234042 0,-7.851062zm-8.903068,0c2.473059,0 4.946164,0 7.419222,0c0,2.61702 0,5.234042 0,7.851062c-2.473059,0 -4.946165,0 -7.419222,0c0,-2.61702 0,-5.234042 0,-7.851062zm-8.903068,0c2.473059,0 4.946164,0 7.419224,0c0,2.61702 0,5.234042 0,7.851062c-2.47306,0 -4.946164,0 -7.419224,0c0,-2.61702 0,-5.234042 0,-7.851062zm27.451127,16.190301c2.349434,-0.177259 4.698826,0.125242 7.048262,-0.052017c0.150747,-2.762409 0.080923,-5.524824 0.23167,-8.287233c2.198689,0 4.617948,0 6.816591,0c0,-2.61702 0,-5.234044 0,-7.851062c-2.225766,0 -4.451534,0 -6.6773,0c0,-2.907806 0,-5.815604 0,-8.723403c-2.473059,0 -4.946164,0 -7.419222,0c0,-2.61702 0,-5.234042 0,-7.851062c2.473059,0 4.946164,0 7.419222,0c0,2.61702 0,5.234042 0,7.851062c2.198644,0 4.617904,-0.129671 6.816591,-0.129671c0.150747,2.762401 0.080924,5.654493 0.231673,8.416902c2.349432,0.177253 4.731962,-0.015037 7.081399,0.162216c0,2.58516 -0.033139,5.539854 -0.033139,8.125017c-2.473059,0 -4.946164,0 -7.419222,0c0,2.907804 0,5.815599 0,8.723403c-2.225766,0 -4.451534,0 -6.6773,0c0,2.61702 0,5.234042 0,7.851062c-2.473059,0 -4.946164,0 -7.419222,0c0,-2.58516 0,-5.650058 0,-8.23522l-0.000002,0.000006z" stroke-opacity="null" stroke-width="3" stroke="#ffaaaa" fill="#fcedf4"/>
+        </g>
+
+        <g id="highscoretable" transform="translate(40,40)" style="visibility:hidden">
+          <rect width="520" height="480"
+          style="fill:white;stroke:red;stroke-width:2"/>
+         <text x="260" y="40"
+          style="fill:red;font-size:30px;font-weight:bold;text-anchor:middle">
+           High Score Table
+         </text>
+         <text id="highscoretext" y="45"
+          style="font-size: 20px;font-weight:bold; fill:black"/>
+       </g>
+      </g>
+
+  </g>
+
+</svg>
